@@ -1,0 +1,26 @@
+-> Utilize o parâmetro do compilador que desliga as opções de otimização: -O0
+
+C:\Users\mamen\lab02-multiplicacao-de-matrizes-mamendees>gcc esq_matmul.c -std=gnu99 -O0 -o esq_matmul_saida
+
+C:\Users\mamen\lab02-multiplicacao-de-matrizes-mamendees>esq_matmul_saida
+===========   Iniciando execucao  ============
+Tempo Gasto: 5.317858 Segundos.
+===========  Finalizando execucao ============
+
+-> Utilize o parâmetro do compilador que desliga as opções de otimização: -O3
+
+C:\Users\mamen\lab02-multiplicacao-de-matrizes-mamendees>gcc esq_matmul.c -std=gnu99 -O3 -o esq_matmul_saida
+
+C:\Users\mamen\lab02-multiplicacao-de-matrizes-mamendees>esq_matmul_saida
+===========   Iniciando execucao  ============
+Tempo Gasto: 1.598749 Segundos.
+===========  Finalizando execucao ============
+
+-> Mude seu algoritmo para utilizar corretamente o cache (L1, L2) e, desligando as opções de otimização do compilador (-O0)
+
+C:\Users\mamen\lab02-multiplicacao-de-matrizes-mamendees>gcc esq_matmul.c -std=gnu99 -O0 -o esq_matmul_saida
+
+C:\Users\mamen\lab02-multiplicacao-de-matrizes-mamendees>esq_matmul_saida
+===========   Iniciando execucao  ============
+Tempo Gasto: 2.965455 Segundos.
+===========  Finalizando execucao ============
